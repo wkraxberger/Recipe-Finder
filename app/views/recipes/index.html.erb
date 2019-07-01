@@ -1,0 +1,17 @@
+<h1>Searching for - <%= @search_term %></h1>
+<center>
+<table border="1">
+  <tr>
+    <th>Image</th>
+    <th>Name</th>
+    <th>Publisher</th>
+  </tr>
+  <% @recipes.each do |recipe| %>
+    <tr>
+      <td><%= image_tag(recipe["image_url"], :size => "100x100") %></td>
+      <td><%= recipe["title"] %></td>
+      <td><%= recipe["publisher"] %></td>
+    </tr>
+  <% end %>
+</table>
+</center>
