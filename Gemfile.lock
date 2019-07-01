@@ -75,7 +75,6 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.6)
     libv8 (3.16.14.19)
-    libv8 (3.16.14.19-x86_64-darwin-17)
     loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -210,7 +209,7 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 RUBY VERSION
-   ruby 2.2.3p173
+   ruby 2.2.10p489
 
 BUNDLED WITH
    1.16.5
